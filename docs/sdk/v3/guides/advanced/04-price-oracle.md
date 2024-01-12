@@ -230,7 +230,7 @@ struct Observation {
 
 It is possible to request any Observation up to (excluding) index `65535`, but indices equal to or greater than the `observationCardinality` will return uninitialized Observations.
 
-The full code to the following code snippets can be found in [`oracle.ts`](https://github.com/uniswap/examples/blob/main/v3-sdk/oracle/src/libs/oracle.ts)
+The full code to the following code snippets can be found in [`oracle.ts`](https://github.com/Uniswap/examples/blob/main/v3-sdk/oracle/src/libs/oracle.ts)
 
 ```typescript
 let requests = []
